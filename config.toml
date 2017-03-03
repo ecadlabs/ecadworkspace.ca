@@ -75,7 +75,7 @@ googleAnalytics = "UA-93014135-1"
         [[params.services.list]]
             icon = "fa-heart"
             title = "Shared Amenities"
-            description = "Relace, socilize and snack in our shared lobby space. Use the kitchen to make tea/coffee."
+            description = "Relace, socialize and snack in our shared lobby space. Use the kitchen to make tea/coffee."
 
 
     # Portfolio modals
