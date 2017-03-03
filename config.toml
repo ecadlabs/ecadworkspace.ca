@@ -1,3 +1,107 @@
+baseurl = "https://www.ecadworkspace.ca/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-baseURL = "http://example.org/"
+title = "ECAD Workspace"
+theme = "hugo-creative-theme"
+googleAnalytics = "UA-93014135-1"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "ECAD Workspace"
+	description = "Co-Working space for East Vancouver"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "ECAD Workspace"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			#portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Your Deskspace"
+		subtitle   = "Co-Working space for East Vancouver"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Why Co-Working"
+		description = "Jev & Vanessa live and work in the Hastings Sunrise / East Village neighbourhood. They have worked from home, and found it challenging to separate home life from work life. They believe in local community, and professional space. This is why they started ECAD Workspace. For other individuals in our community to have access to an affordable and dependable workspace, and not have to commit to onerous commutes."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Rental Options"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+            title = "Your Desk"
+            description = "Have your dedicated desk in a clean and friendly office atmosphere"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+			title = "Your Desk Premium"
+			description = "Your dedicated desk space in our large front room, with access to a 'quiet' room for phone calls, conference calls, or recording activites"
+
+		[[params.services.list]]
+            icon = "fa-briefcase"
+            title = "Private Suite Rental"
+            description = "Rent a private suite all to yourself or your team."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Shared Amenities"
+            description = "Relace, socilize and snack in our shared lobby space. Use the kitchen to make tea/coffee."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Fast internet"
+
+		[params.aside.button]
+            text = "Enjoy guaranteed fast internet"
+			link = "https://ecadworkspace.ca/"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Call us to arrange a tour of the space"
+		phone = "604 670 5060"
+		email = "office@ecadworkspace.ca"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
